@@ -1,0 +1,48 @@
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: #042940;
+}
+
+.logoClean{
+    height: 8vh;
+    width: 12vh;
+    padding-left: 2vw;
+}
+
+.content{
+    height: 90vh;
+    width: 100vw;
+    background-color: #EEEEEE;
+}
+
+.theForm{
+    height: 90vh;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: #D9D9D9;
+    float: left;
+    text-align: center;
+}
+
+.fieldForm{
+    height: 20vh;
+    width: 60vw;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.icon{
+    height: 3vw;
+    width: 3vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.subBtn{
+    background-color: #042940;
+    color: white;
+    padding: 1vh 3vw 1vh 3vw;
+}
