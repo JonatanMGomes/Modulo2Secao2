@@ -1,0 +1,36 @@
+.header{
+    text-align: center;
+    height: 10vh;
+    width: 100vw;
+}
+
+.content{
+    text-align: center;
+    height: 90vh;
+    width: 100vw;
+    display: inline-block;
+}
+
+@media screen and (min-width: 800px){
+    .field{
+        height: 10vh;
+        width: 30vw;
+        float: left;
+    }
+}
+
+@media screen and (400px <= width < 800px){
+    .field{
+        height: 10vh;
+        width: 45vw;
+        float: left;
+    }
+}
+
+@media screen and (width < 400px){
+    .field{
+        height: 10vh;
+        width: 90vw;
+        float: left;
+    }
+}

@@ -5,21 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar Loja</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <h2>Formulário de Cadastro</h2>
-    <section>
+    <header class="header">
+        <h2>Formulário de Cadastro</h2>
+    </header>
+    
+    <section class="content">
         <form id="shopForm" action="api.flit.com.br/submeterDados" method="post">
-            <div>
+            <div class="field">
                 <label for="shopName">Nome</label>
                 <input type="text" name="shopName" id="shopName" placeholder="Ex: Loja do Zé">
             </div>
-            <div>
+            <div class="field">
                 <label for="shopAddress">Endereço</label>
                 <input type="text" name="shopAddress" id="shopAddress" placeholder="Ex: Av. Presidente vargas, 1050....">
             </div>
-            <div>
+            <div class="field">
                 <span>Dias de funcionamento: </span>
                 <label for="monday">Segunda-feira</label>
                 <input type="checkbox" name="monday" id="monday" value="monday">
@@ -36,15 +40,15 @@
                 <label for="sunday">Domingo</label>
                 <input type="checkbox" name="sunday" id="sunday" value="sunday">
             </div>
-            <div>
+            <div class="field">
                 <label for="openingTime">Horario de abertura</label>
                 <input type="time" name="openingTime" id="openingTime">
             </div>
-            <div>
+            <div class="field">
                 <label for="closingTime">Horario de fechamento</label>
                 <input type="time" name="closingTime" id="closingTime">
             </div>
-            <div>
+            <div class="field">
                 <input type="submit" value="Enviar">
             </div>
         </form>
