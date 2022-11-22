@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Loja</title>
+</head>
+
+<body>
+    <h2>Formulário de Cadastro</h2>
+    <section>
+        <form id="shopForm" action="api.flit.com.br/submeterDados" method="post">
+            <div>
+                <label for="shopName">Nome</label>
+                <input type="text" name="shopName" id="shopName" placeholder="Ex: Loja do Zé">
+            </div>
+            <div>
+                <label for="shopAddress">Endereço</label>
+                <input type="text" name="shopAddress" id="shopAddress" placeholder="Ex: Av. Presidente vargas, 1050....">
+            </div>
+            <div>
+                <span>Dias de funcionamento: </span>
+                <label for="monday">Segunda-feira</label>
+                <input type="checkbox" name="monday" id="monday" value="monday">
+                <label for="tuesday">Terça-feira</label>
+                <input type="checkbox" name="tuesday" id="tuesday" value="tuesday">
+                <label for="wednesday">Quarta-feira</label>
+                <input type="checkbox" name="wednesday" id="wednesday" value="wednesday">
+                <label for="thursday">Quinta-feira</label>
+                <input type="checkbox" name="thursday" id="thursday" value="thursday">
+                <label for="friday">Sexta-feira</label>
+                <input type="checkbox" name="friday" id="friday" value="friday">
+                <label for="saturday">Sábado</label>
+                <input type="checkbox" name="saturday" id="saturday" value="saturday">
+                <label for="sunday">Domingo</label>
+                <input type="checkbox" name="sunday" id="sunday" value="sunday">
+            </div>
+            <div>
+                <label for="openingTime">Horario de abertura</label>
+                <input type="time" name="openingTime" id="openingTime">
+            </div>
+            <div>
+                <label for="closingTime">Horario de fechamento</label>
+                <input type="time" name="closingTime" id="closingTime">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+</body>
+
+<script src="./algorithm.js"></script>
+
+</html>
